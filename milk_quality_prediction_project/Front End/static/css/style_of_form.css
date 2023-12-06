@@ -1,0 +1,110 @@
+
+.card {
+    width: 870px;
+    height: 800px;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    /*background-color: aquamarine;*/
+    /*max-width: 920px;*/
+    backdrop-filter: blur(7px);
+    text-align: center;
+    padding: 50px 35px;
+    /* border: 1px solid rgba(255,255,255,0.3);*/
+    border-radius: 150px;
+    margin-top: 50px
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    background: white;
+    color: #94bbe9;
+    padding: 10px 30px;
+    border-color: #fff;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #94bbe9;
+    color: #fff;
+    cursor: pointer;
+}
+
+.table {
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    border-radius: 90px;
+    backdrop-filter: blur(15px);
+    width: 250px;
+    height: 150px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.table:hover {
+    color: #ad4800;
+}
+
+.tbl {
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    border-radius: 90px;
+    backdrop-filter: blur(15px);
+    width: 500px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    height: 680px;
+    margin-top: 20px
+}
+
+.btns {
+    background-color: white;
+    color: forestgreen;
+    border: solid 2px;
+    border-color: forestgreen
+}
+
+.btns:hover {
+    background-color: forestgreen;
+    border-color: forestgreen
+}
+
+.btnr {
+    background-color: white;
+    color: dimgray;
+    border: solid 2px;
+    border-color: dimgray
+}
+
+.btnr:hover {
+    background-color: gray;
+    border-color: dimgray
+}
+
+.textbox {
+    text-align: center;
+    border-radius: 90px;
+    color: brown;
+    width: 220px;
+    height: 35px;
+
+}
+
+.dropdown-item:hover {
+    background-color: #94bbe9
+}
+
+.row1 {
+    margin-top: 20px;
+}
+
+form {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
